@@ -1,5 +1,4 @@
-# GYM
-Visit site: https://priyanshph.github.io/GYM/
+# GYM Preview Images 👇
 ![Screenshot 2024-07-12 205112](https://github.com/user-attachments/assets/1ad21e3c-d880-4068-8609-a8b0a27d5e11)
 ![Screenshot 2024-07-12 205200](https://github.com/user-attachments/assets/eb416530-6cb3-4bd8-a7e9-a388d3b6a80a)
 ![Screenshot 2024-07-12 205310](https://github.com/user-attachments/assets/2cd32c8a-23aa-4862-93f8-924c88847052)
