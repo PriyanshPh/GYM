@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GYM Info</title>
+  <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/fitness-health-6/96/Asset_48-512.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="Classes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="imgs/img/fitness logo.png" alt="FITNESS"></a>
+    </div>
+    <div class="search">
+      <form action="">
+        <input type="text" placeholder="Search Here">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Classes.html" target="_blank" rel="noopener noreferrer" class="active">Classes</a></li>
+      <li><a href="Products.html">Products</a></li>
+      <li><a href="Blogs.html">Blogs</a></li>
+      <li><a href="#" style="border-bottom: none;"><button class="btns" id="joinButton">Join Us</button></a></li>
+    </ul>
+    <div class="icon">
+      <!-- <i id="srch" class="fa fa-search" style="margin-right: 20px;"></i> -->
+      <i id="menu" class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <!-- Join US Button -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <div style="background-color: yellow; border-radius: 5px;">
+        <span class="close">&times;</span>
+        <h2>Subscription Plan</h2>
+      </div>
+      <form id="membershipForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="phone" placeholder="Mobile Number" required><br><br>
+        <label for="duration">Select Duration:</label><br>
+        <input type="radio" id="monthly" name="duration" value="Monthly" required>
+        <label for="monthly">Monthly</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="yearly" name="duration" value="Yearly">
+        <label for="yearly">Yearly</label><br><br>
+        <label for="payment">Select Mode of Payment:</label><br>
+        <input type="radio" id="cash" name="payment" value="Cash" required>
+        <label for="cash">Cash</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="online" name="payment" value="Online">
+        <label for="online">Online</label><br><br>
+        <label for="personalTraining">Do you require Personal Training?</label><br>
+        <input type="radio" id="required" name="personalTraining" value="Required" required>
+        <label for="required">Yes</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="notRequired" name="personalTraining" value="Not Required">
+        <label for="notRequired">No</label><br><br>
+        <input type="checkbox" id="terms" required>
+        <label for="terms">I accept all terms & conditions</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">Buy Plan</button>
+      </form>
+    </div>
+  </div>
+  <!-- Hero Section -->
+  <div class="container">
+    <h1>Our Classes</h1>
+    <div class="cd1">
+      <div class="cdd1"><img src="imgs/img/e1.jpg" alt="">
+        <p>6:30-7:30 AM</p>
+        <p style="background-color: red; border-radius: 10px; width: 10vw; margin: 0 10vw; padding: 2%;">Power Excello
+        </p>
+      </div>
+      <div class="cdd2"><img src="imgs/img/img6.jpg" alt="">
+        <p>6:30-7:30 AM</p>
+        <p style="background-color: red; border-radius: 10px; width: 10vw; margin: 0 10vw; padding: 2%;">Mixed-Level
+          Excello</p>
+      </div>
+      <div class="cdd3"><img src="imgs/img/w3.jpg" alt="">
+        <p>6:30-7:30 AM</p>
+        <p style="background-color: red; border-radius: 10px; width: 10vw; margin: 0 10vw; padding: 2%;">Beginner Level
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Section: 2 -->
+  <div class="container1">
+    <h1 style="padding: 0px 5%; color: black;">Our Training Partners</h1>
+    <div class="c1d1">
+      <div class="c1d1d1"><img src="imgs/img/t2.jpg" alt="">
+        <p style="background-color: #524D4D; border-radius: 10px; width: 10vw; margin: 0 10vw; padding: 2%;">John Smith
+        </p>
+      </div>
+      <div class="c1d1d2"><img src="imgs/img/img2.jpg" alt="">
+        <p style="background-color: #524D4D; border-radius: 10px; width: 10vw; margin: 0 10vw; padding: 2%;">Anais Louis
+        </p>
+      </div>
+      <div class="c1d1d3"><img src="imgs/img/e3.jpeg" alt="">
+        <p style="background-color: #524D4D; border-radius: 10px; width: 10vw; margin: 0 10vw; padding: 2%;">Phil heath
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Section: 3 | Carousel -->
+  <div class="slider-box">
+    <input type="radio" id="btn1" name="slider-btn" class="btn" checked>
+    <input type="radio" id="btn2" name="slider-btn" class="btn">
+    <input type="radio" id="btn3" name="slider-btn" class="btn">
+    <input type="radio" id="btn4" name="slider-btn" class="btn">
+
+    <div id="slider">
+      <img src="imgs/img/gymm.jpg" alt="">
+      <img src="imgs/img/i1.webp" alt="">
+      <!-- <img src="imgs/img/im1.jpg" alt="">
+      <img src="imgs/img/im2.jpg" alt="">
+      <img src="imgs/img/img4.webp" alt="">
+      <img src="imgs/img/t3.jpg" alt="">
+      <img src="imgs/img/t4.jpg" alt="">
+      <img src="imgs/img/v1.jpg" alt=""> -->
+      <img src="imgs/img/v2.webp" alt="">
+      <img src="imgs/img/w1.jpg" alt="">
+    </div>
+    <div class="indicators">
+      <label for="btn1" class="indicator"></label>
+      <label for="btn2" class="indicator"></label>
+      <label for="btn3" class="indicator"></label>
+      <label for="btn4" class="indicator"></label>
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container6">
+      <div class="c6d1">
+        <img src="imgs/img/fitness logo.png" alt="">
+        <p style="color: #FFA500; font-size: 22px;">Prioritize Your Fitness Goals
+          with our world class services</p>
+      </div>
+      <div class="c6d2">
+        <div>
+          <h2>COMPANY</h2>
+          <p>About <br><br>Careers <br><br>Blogs</p>
+        </div>
+        <div>
+          <h2>CONTACT</h2>
+          <p>Help/FAQs<br><br>Press <br><br>Mobile</p>
+        </div>
+        <div>
+          <h2>MORE</h2>
+          <p>Program <br><br>Plans <br><br>Method</p>
+        </div>
+      </div>
+      <div class="c6d3"><u> Popular Tags </u>
+        <div class="c6d3d">
+          <div style="background-color: #8D8383;">ABS</div>
+          <div style="background-color: #8D8383;">Workout</div>
+        </div>
+        <div class="c6d3d">
+          <div>Nutrition</div>
+          <div style="background-color: #8D8383;">GYM</div>
+        </div>
+        <div class="c6d3d">
+          <div style="background-color: #8D8383;">Boxing</div>
+          <div>Trainers</div>
+        </div>
+        <div style="font-size: 20px; padding: 2.2%; margin: 2.2% 39%; background-color: #FFA500;">Facilities
+        </div>
+      </div>
+    </div>
+    <div class="c6d4">CopyRight All Rights Reserved</div>
+  </footer>
+
+  <!-- Js file Link -->
+  <script src="index.js"></script>
+</body>
+
+</html>

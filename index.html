@@ -1,0 +1,300 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM Info</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn4.iconfinder.com/data/icons/fitness-health-6/96/Asset_48-512.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="imgs/img/fitness logo.png" alt="FITNESS"
+        /></a>
+      </div>
+      <div class="search">
+        <form action="">
+          <input type="text" placeholder="Search Here" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <ul>
+        <li>
+          <a
+            href="index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="active"
+            >Home</a
+          >
+        </li>
+        <li><a href="Classes.html">Classes</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Blogs.html">Blogs</a></li>
+        <li>
+          <a href="#" style="border-bottom: none"
+            ><button class="btns" id="joinButton">Join Us</button></a
+          >
+        </li>
+      </ul>
+      <div class="icon">
+        <!-- <i id="srch" class="fa fa-search" style="margin-right: 20px;"></i> -->
+        <i id="menu" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Join US Button -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <div style="background-color: yellow; border-radius: 5px">
+          <span class="close">&times;</span>
+          <h2>Subscription Plan</h2>
+        </div>
+        <form id="membershipForm">
+          <input type="text" id="name" placeholder="Name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Mobile Number"
+            required
+          /><br /><br />
+          <label for="duration">Select Duration:</label><br />
+          <input
+            type="radio"
+            id="monthly"
+            name="duration"
+            value="Monthly"
+            required
+          />
+          <label for="monthly">Monthly</label
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="yearly" name="duration" value="Yearly" />
+          <label for="yearly">Yearly</label><br /><br />
+          <label for="payment">Select Mode of Payment:</label><br />
+          <input type="radio" id="cash" name="payment" value="Cash" required />
+          <label for="cash">Cash</label
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="online" name="payment" value="Online" />
+          <label for="online">Online</label><br /><br />
+          <label for="personalTraining">Do you require Personal Training?</label
+          ><br />
+          <input
+            type="radio"
+            id="required"
+            name="personalTraining"
+            value="Required"
+            required
+          />
+          <label for="required">Yes</label
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input
+            type="radio"
+            id="notRequired"
+            name="personalTraining"
+            value="Not Required"
+          />
+          <label for="notRequired">No</label><br /><br />
+          <input type="checkbox" id="terms" required />
+          <label for="terms">I accept all terms & conditions</label
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="submit">Buy Plan</button>
+        </form>
+      </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="container">
+      <img src="imgs/img/girl gym.webp" alt="" width="100%" />
+      <h1>Revitalize your body</h1>
+      <p>
+        Fall in love with taking care of yourself: <br />
+        mind, body, and spirit.
+      </p>
+      <div class="container-btn">
+        <button id="GetBtn">Get Started</button>
+        <button id="FreeBtn">
+          Free Trial <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Section: 1 -->
+    <div class="leftD">
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <!-- Section: 2 -->
+    <div class="container-2">
+      <div style="display: flex">
+        <div>
+          <img src="imgs/img/weight-removebg-preview.png" alt="" />
+          <p>Weight Loss</p>
+        </div>
+        <div>
+          <img src="imgs/img/yoga1-removebg-preview.png" alt="" />
+          <p>Classic Yoga</p>
+        </div>
+        <div>
+          <img src="imgs/img/cycle-removebg-preview.png" alt="" />
+          <p>Cycling</p>
+        </div>
+      </div>
+      <div class="vl1"></div>
+      <div class="vl2"></div>
+      <div class="hl"></div>
+      <div style="display: flex">
+        <div>
+          <img src="imgs/img/ps1.jpg" alt="" />
+          <p>Bodybuilding</p>
+        </div>
+        <div>
+          <img src="imgs/img/images-removebg-preview (2).png" alt="" />
+          <p>Hypertrophy</p>
+        </div>
+        <div>
+          <img src="imgs/img/run-removebg-preview.png" alt="" />
+          <p>Running</p>
+        </div>
+      </div>
+    </div>
+    <!-- Section: 3 -->
+    <div class="container3">
+      <video src="videos/video/video.mp4" width="100%" autoplay></video>
+      <div class="hdsp">
+        <h2>Subscription Plans</h2>
+        <div class="dd">
+          <div>
+            <h1>Basic</h1>
+            <br />
+            <p>for 12 months</p>
+            <br /><br />
+            <h1>800/month</h1>
+            <br />
+            <p>for streaming</p>
+            <br /><br /><button>Select Plan</button>
+          </div>
+          <div>
+            <h1>Intermediate</h1>
+            <br />
+            <p>for 12 months</p>
+            <br /><br />
+            <h1>1000/month</h1>
+            <br />
+            <p>for streaming</p>
+            <br /><br /><button>Select Plan</button>
+          </div>
+          <div>
+            <h1>Advanced</h1>
+            <br />
+            <p>for 12 months</p>
+            <br /><br />
+            <h1>1500/month</h1>
+            <br />
+            <p>for streaming</p>
+            <br /><br /><button>Select Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section: 4 -->
+    <div class="container4">
+      <img src="imgs/img/is.jpg" alt="" />
+      <div class="cdd">
+        <div>
+          <img src="imgs/img/gm.png" alt="" />
+          <h1>Good Management</h1>
+          <p>What hurts today makes you stronger tomorrow</p>
+        </div>
+        <div>
+          <img src="imgs/img/ps1.jpg" alt="" />
+          <h1>Practice Sessions</h1>
+          <p>Motivation is what gets you started.</p>
+        </div>
+        <div>
+          <img src="imgs/img/ft1.png" alt="" />
+          <h1>Personal Trainers</h1>
+          <p>If it doesn't challenge you, it won't change you</p>
+        </div>
+      </div>
+    </div>
+    <!-- Section: 5 -->
+    <div class="container5">
+      <div>
+        <img src="imgs/img/e3.jpeg" alt="" />
+        <p>Best place for body transformation</p>
+      </div>
+      <div>
+        <img src="imgs/img/img5.jpg" alt="" />
+        <p>Best Cross Fit gym in this area</p>
+      </div>
+      <div>
+        <img src="imgs/img/i2.jpg" alt="" />
+        <p>Best Bodybuilding gym in this city it has all required equipment</p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container6">
+        <div class="c6d1">
+          <img src="imgs/img/fitness logo.png" alt="" />
+          <p style="color: #ffa500; font-size: 22px">
+            Prioritize Your Fitness Goals with our world class services
+          </p>
+        </div>
+        <div class="c6d2">
+          <div>
+            <h2>COMPANY</h2>
+            <p>About <br /><br />Careers <br /><br />Blogs</p>
+          </div>
+          <div>
+            <h2>CONTACT</h2>
+            <p>Help/FAQs<br /><br />Press <br /><br />Mobile</p>
+          </div>
+          <div>
+            <h2>MORE</h2>
+            <p>Program <br /><br />Plans <br /><br />Method</p>
+          </div>
+        </div>
+        <div class="c6d3">
+          <u> Popular Tags </u>
+          <div class="c6d3d">
+            <div style="background-color: #8d8383">ABS</div>
+            <div style="background-color: #8d8383">Workout</div>
+          </div>
+          <div class="c6d3d">
+            <div>Nutrition</div>
+            <div style="background-color: #8d8383">GYM</div>
+          </div>
+          <div class="c6d3d">
+            <div style="background-color: #8d8383">Boxing</div>
+            <div>Trainers</div>
+          </div>
+          <div
+            style="
+              font-size: 20px;
+              padding: 2.2%;
+              margin: 2.2% 39%;
+              background-color: #ffa500;
+            "
+          >
+            Facilities
+          </div>
+        </div>
+      </div>
+      <div class="c6d4">CopyRight All Rights Reserved</div>
+    </footer>
+
+    <!-- Js file Link -->
+    <script src="index.js"></script>
+  </body>
+</html>
